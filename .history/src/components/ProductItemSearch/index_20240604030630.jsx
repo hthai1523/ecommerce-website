@@ -7,7 +7,7 @@ function ProductItemSearch({data}) {
       <img
         src={data.image}
         alt={data.title}
-        className="rounded-full block w-14 h-14 object-contain mr-5 "
+        className="rounded-full block w-10 h-10 object-contain mr-5 "
       />
 
       <div className="flex-1">

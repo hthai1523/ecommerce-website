@@ -20,8 +20,9 @@ function Arrivals() {
     const fetchData = async () => {
       try {
         setIsLoading(true);
-        const rs = await axios.get("https://fakestoreapi.com/products");
-        setProducts(rs.data.slice(0,6));
+        const rs = await axios.get("http://localhost:3000/clothes?_limit=6");
+        setProducts(rs.data);
+        console.log(products);
         setIsLoading(false);
       } catch (error) {
         setIsLoading(true)
@@ -31,6 +32,14 @@ function Arrivals() {
 
     fetchData();
 
+    // const fetchApi = async () => {
+
+    //   const rs = await getServices.getAll();
+    //   setProducts(rs);
+    //   console.log(rs);
+    // };
+
+    // fetchApi();
   }, []);
 
   return (

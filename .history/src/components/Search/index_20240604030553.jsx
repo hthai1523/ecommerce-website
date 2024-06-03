@@ -81,7 +81,7 @@ function Search() {
                 })
                 .map((item) => (
                   <div onClick={handleOnClickProductItemSearch} key={item.id}>
-                    <ProductItemSearch data={item}  />
+                    <ProductItemSearch data={item} star={item.id % 2 === 0} />
                   </div>
                 ))}
             </div>

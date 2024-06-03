@@ -7,7 +7,6 @@ import ProductItem from "../ProductItem";
 import { FaRegCircleXmark } from "react-icons/fa6";
 import axios from "axios";
 import ProductItemSearch from "../ProductItemSearch";
-import getAllProductServices from "../../services/getAllProductServices";
 
 function Search() {
   const [searchResult, setSearchResult] = useState([]);
@@ -26,14 +25,33 @@ function Search() {
       return;
     }
 
-    const fetchApi = async () => {
+    const fetchData = () => {
       setLoading(true);
-      const data = await getAllProductServices();
-      setSearchResult(data);
-      setLoading(false);
+      axios
+        .get("http://localhost:3000/clothes")
+        .then((response) => {
+          setSearchResult(response.data);
+          
+          setLoading(false);
+        })
+        .catch((error) => {
+          console.log(error);
+          setLoading(false);
+        });
     };
 
-    fetchApi();
+    fetchData();
+
+    // const fetchApi = async () => {
+    //   setLoading(true);
+
+    //   const rs = await searchService.search();
+    //   // setSearchResult(rs);
+    //   console.log(rs);
+    //   setLoading(false);
+    // };
+
+    // fetchApi();
   }, [debounced]);
 
   const handleClear = () => {
@@ -80,8 +98,8 @@ function Search() {
                   } else return false;
                 })
                 .map((item) => (
-                  <div onClick={handleOnClickProductItemSearch} key={item.id}>
-                    <ProductItemSearch data={item}  />
+                  <div onClick={handleOnClickProductItemSearch} key={item.id} >
+                    <ProductItemSearch data={item} star={item.id % 2 === 0} />
                   </div>
                 ))}
             </div>
