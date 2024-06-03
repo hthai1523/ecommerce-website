@@ -16,7 +16,7 @@ import ProductListLayout from "../components/Layout/ProductListLayout";
 
 const publicRoutes = [
   { path: routesConfig.home, component: Home },
-  { path: '/ecommerce-website', component: Home },
+  { path: '/golf-shop', component: Home },
   { path: routesConfig.product, component: Product, layout: ProductListLayout },
   { path: routesConfig.blog, component: Blog },
   { path: routesConfig.about, component: About },

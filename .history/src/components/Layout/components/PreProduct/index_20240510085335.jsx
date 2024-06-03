@@ -8,7 +8,7 @@ import {
 } from "../../../../function";
 import getAllProductServices from "../../../../services/getAllProductServices.js";
 import { MotionDiv } from "../../../../lib/framer.js";
-import ClipLoader from "react-spinners/ClipLoader";
+import ReactLoading from "react-loading";
 
 function PreProduct() {
   const [products, setProducts] = useState([]);
@@ -78,13 +78,7 @@ function PreProduct() {
 
       {/* Card item */}
       {isLoading ? (
-        <ClipLoader
-          color={"#ADADAD"}
-          loading={isLoading}
-          size={150}
-          aria-label="Loading Spinner"
-          data-testid="loader"
-        />
+        <ReactLoading height={"200px"} width={"200px"} color="#ADADAD" />
       ) : (
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center ">
           {listProduct.map((item) => (

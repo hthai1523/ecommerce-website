@@ -2,7 +2,7 @@ import { AiOutlineSortAscending } from "react-icons/ai";
 import Card from "../../components/Card";
 import { useEffect, useState } from "react";
 import { MotionDiv } from "../../lib/framer";
-import ClipLoader from "react-spinners/ClipLoader";
+import ReactLoading from "react-";
 import getAllProductServices from "../../services/getAllProductServices";
 function Product() {
   const [listProduct, setListProduct] = useState([]);
@@ -51,12 +51,13 @@ function Product() {
         {loading ? (
           <div className="flex items-center justify-center">
             <ClipLoader
-              color={'#ADADAD'}
+              color={color}
               loading={loading}
+              cssOverride={override}
               size={150}
               aria-label="Loading Spinner"
               data-testid="loader"
-            />
+            />{" "}
           </div>
         ) : (
           <div className="w-full grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2">
