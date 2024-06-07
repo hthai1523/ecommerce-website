@@ -1,0 +1,14 @@
+.card {
+    animation: appear 0.5s linear;
+}
+
+@keyframes appear {
+    from {
+        scale: 0;
+        opacity: 0.5;
+    }
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}

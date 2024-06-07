@@ -1,0 +1,15 @@
+.card {
+    animation: appear linear;
+    animation-timeline: : view();
+}
+
+@keyframes appear {
+    from {
+        scale: 0;
+        opacity: 0.5;
+    }
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
