@@ -44,11 +44,11 @@ This e-commerce website offers a seamless shopping experience with various funct
 ### Installation
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/hthai1523/ecommerce-website.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd <project-folder>
+   cd ecommerce-website
    ```
 3. Install dependencies:
    ```bash
