@@ -1,0 +1,14 @@
+.like--button {
+  width: 2.5rem;
+
+  animation: bounce 2s ease;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

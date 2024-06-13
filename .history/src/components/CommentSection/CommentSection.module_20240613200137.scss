@@ -1,0 +1,13 @@
+.like--button {
+  color: rgb(2, 132, 199);
+  animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

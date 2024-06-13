@@ -1,0 +1,19 @@
+import images from "../../assets";
+import Image from "../Image";
+import UserPost from "./UserPost";
+
+function BlogCard() {
+  return (
+    <div className="flex flex-col shadow-lg w-full rounded-2xl p-4 mx-auto hover:scale-105 duration-300">
+      <Image
+        src={images.blogImage}
+        alt="Blog"
+        className="w-full h-[200px] sm:h-[250px] lg:h-[300px] object-cover rounded-lg"
+      />
+      <UserPost />
+      
+    </div>
+  );
+}
+
+export default BlogCard;
