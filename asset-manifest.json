@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/ecommerce-website/static/css/main.c939a599.css",
-    "main.js": "/ecommerce-website/static/js/main.399c32b9.js",
+    "main.css": "/ecommerce-website/static/css/main.93b7206e.css",
+    "main.js": "/ecommerce-website/static/js/main.7907bf72.js",
     "static/js/453.f30b79e5.chunk.js": "/ecommerce-website/static/js/453.f30b79e5.chunk.js",
+    "static/media/User.jpg": "/ecommerce-website/static/media/User.13f607a9a6d2bb1dc6eb.jpg",
     "static/media/sliderupdatedimage2.png": "/ecommerce-website/static/media/sliderupdatedimage2.52a5023b9177f9e51d78.png",
+    "static/media/imagePost2.png": "/ecommerce-website/static/media/imagePost2.024775c33207b9aa1659.png",
+    "static/media/imagePost.png": "/ecommerce-website/static/media/imagePost.9b48ec7bf84a5acc06b2.png",
     "static/media/slide5.png": "/ecommerce-website/static/media/slide5.c4edf96db59aca881876.png",
     "static/media/slide2.png": "/ecommerce-website/static/media/slide2.efc54d0960965503d449.png",
     "static/media/slide4.png": "/ecommerce-website/static/media/slide4.7089eb31100ebf6c03d0.png",
     "static/media/slide3.png": "/ecommerce-website/static/media/slide3.84a145d51f68552367a5.png",
+    "static/media/thai-hoang-high-resolution-logo-transparent.png": "/ecommerce-website/static/media/thai-hoang-high-resolution-logo-transparent.10539904ccd97ec9cc50.png",
     "index.html": "/ecommerce-website/index.html",
-    "main.c939a599.css.map": "/ecommerce-website/static/css/main.c939a599.css.map",
-    "main.399c32b9.js.map": "/ecommerce-website/static/js/main.399c32b9.js.map",
+    "main.93b7206e.css.map": "/ecommerce-website/static/css/main.93b7206e.css.map",
+    "main.7907bf72.js.map": "/ecommerce-website/static/js/main.7907bf72.js.map",
     "453.f30b79e5.chunk.js.map": "/ecommerce-website/static/js/453.f30b79e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c939a599.css",
-    "static/js/main.399c32b9.js"
+    "static/css/main.93b7206e.css",
+    "static/js/main.7907bf72.js"
   ]
 }
