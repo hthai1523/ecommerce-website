@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecommerce-website/static/css/main.947fd205.css",
-    "main.js": "/ecommerce-website/static/js/main.15df5dc9.js",
+    "main.css": "/ecommerce-website/static/css/main.113b6b95.css",
+    "main.js": "/ecommerce-website/static/js/main.4b641d1f.js",
     "static/js/453.f30b79e5.chunk.js": "/ecommerce-website/static/js/453.f30b79e5.chunk.js",
     "static/media/User.jpg": "/ecommerce-website/static/media/User.13f607a9a6d2bb1dc6eb.jpg",
     "static/media/sliderupdatedimage2.png": "/ecommerce-website/static/media/sliderupdatedimage2.52a5023b9177f9e51d78.png",
@@ -13,12 +13,12 @@
     "static/media/slide3.png": "/ecommerce-website/static/media/slide3.84a145d51f68552367a5.png",
     "static/media/thai-hoang-high-resolution-logo-transparent.png": "/ecommerce-website/static/media/thai-hoang-high-resolution-logo-transparent.10539904ccd97ec9cc50.png",
     "index.html": "/ecommerce-website/index.html",
-    "main.947fd205.css.map": "/ecommerce-website/static/css/main.947fd205.css.map",
-    "main.15df5dc9.js.map": "/ecommerce-website/static/js/main.15df5dc9.js.map",
+    "main.113b6b95.css.map": "/ecommerce-website/static/css/main.113b6b95.css.map",
+    "main.4b641d1f.js.map": "/ecommerce-website/static/js/main.4b641d1f.js.map",
     "453.f30b79e5.chunk.js.map": "/ecommerce-website/static/js/453.f30b79e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.947fd205.css",
-    "static/js/main.15df5dc9.js"
+    "static/css/main.113b6b95.css",
+    "static/js/main.4b641d1f.js"
   ]
 }
