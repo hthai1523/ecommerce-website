@@ -1,0 +1,15 @@
+.side-bar{
+    flex: 1;
+    margin-right: 32px;
+}
+
+.main-content{
+    flex: 3;
+}
+
+@media (min-width: 768px) {
+    .side-bar{
+        margin-right: 0;
+        flex: 0;
+    }
+}
